@@ -8,7 +8,7 @@ import app.utils as utils
 model_name = "sentence-transformers/all-MiniLM-L6-v2"
 
 # load model
-model = SentenceTransformer(model_name, clean_up_tokenization_spaces=True)
+model = SentenceTransformer(model_name)
 
 # load knowledge base (movie dataset with embeddings)
 data = pd.read_pickle("app/data/movie_plot_embedding_dataset.pkl")
