@@ -2,6 +2,10 @@
 
 This project is a **movie recommendation system** built with **FastAPI** and **Sentence Transformers**. It suggests movies based on plot similarity using pre-trained sentence embeddings.
 
+## Overview
+
+This project leverages **FastAPI** for building a REST API, and utilizes **Sentence Transformers** to compute embeddings for movie plots. The model employed is `sentence-transformers/all-MiniLM-L6-v2` from Hugging Face, which provides efficient and accurate sentence embeddings. The underlying dataset used for this project is the [Wikipedia Movies dataset](https://www.kaggle.com/datasets/exactful/wikipedia-movies), containing approximately 18,000 movie plots. I used this dataset along with the pre-trained model to compute embeddings, which are stored in a pickle file located at `app/data/movie_plot_embedding_dataset.pkl`.
+
 ## Features
 
 - FastAPI-based REST API
