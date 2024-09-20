@@ -75,7 +75,7 @@ docker run -p 8080:8080 semantic-movie-recommender
 ```
 
 # Deployment
-You can access the API deployed at: (Update this with the actual deployment URL)
+You can access the API deployed at: [Deployed API](https://semantic-movie-recommender-production.up.railway.app/))
 
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](https://github.com/omar-arif/semantic-movie-recommender/blob/main/LICENSE) file for more details.
