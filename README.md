@@ -27,13 +27,11 @@ The model uses a pre-embedded movie dataset (`movie_plot_embedding_dataset.pkl`)
    
 2. Install dependencies:
 ```bash
-Copier le code
 pip install -r requirements.txt
 ```
 
 (Optional) To use Docker:
 ```bash
-Copier le code
 docker build -t semantic-movie-recommender .
 docker run -p 8080:8080 semantic-movie-recommender
 ````
@@ -75,7 +73,7 @@ docker run -p 8080:8080 semantic-movie-recommender
 ```
 
 # Deployment
-You can access the API deployed at: [Deployed API](https://semantic-movie-recommender-production.up.railway.app/))
+You can access the API deployed at: [Deployed API](https://omar-arif-semantic-movie-recommender-api.hf.space))
 
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](https://github.com/omar-arif/semantic-movie-recommender/blob/main/LICENSE) file for more details.
