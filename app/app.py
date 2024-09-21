@@ -13,12 +13,6 @@ model = SentenceTransformer(model_name)
 # load knowledge base (movie dataset with embeddings)
 data = pd.read_pickle("app/data/movie_plot_embedding_dataset.pkl")
 
-# load model
-model = SentenceTransformer(model_name)
-
-# load knowledge base (movie dataset with embeddings)
-data = pd.read_pickle("app/data/movie_plot_embedding_dataset.pkl")
-
 # create an instance of the recommender class
 recommender = utils.Recommender(data, model)
 
